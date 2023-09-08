@@ -13,7 +13,7 @@ def create_auth_token(sender, instance=None, created=False, **kwargs):
          
         # user= User.objects.get(username = instance)
         # if not user.is_superuser:
-        #     group = Group.objects.get(name='Read_Only') 
+        #     group = Group.objects.get(name='Read Only') 
         #     user.groups.add(group)
         #     user.save()
 
