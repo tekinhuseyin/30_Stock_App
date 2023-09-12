@@ -5,9 +5,9 @@ from .models import(
     Product,
     Firm,
     Purchases,
-    Sales,
-    
+    Sales,  
 )
+
 admin.site.register(Category)
 admin.site.register(Brand)
 admin.site.register(Product)
